@@ -17,6 +17,17 @@ body {
     background-size: cover;
    
 }
+@media (max-width: 767px) {
+    /* bootstrap breaking points to mobile screen */
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* ipad */
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* desktop */
+  }
 
 .msg {
     width: 100%;
