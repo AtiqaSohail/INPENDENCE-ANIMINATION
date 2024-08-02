@@ -17,20 +17,64 @@ body {
     background-size: cover;
    
 }
-/* @media (max-width: 767px) {
-    /* bootstrap breaking points to mobile screen */
-  /* }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* ipad */
-  /* } */
-  
-  /* @media (min-width: 992px) and (max-width: 1199px) {
-    /* desktop */
-  /* }  */  
-  @media only screen and (max-width: 480px) {
-    /* styles here will be applied only on mobile screens */
-  }
+
+
+
+/* Small phones (less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your CSS code here */
+}
+
+/* Medium phones (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your CSS code here */
+}
+
+/* Large phones (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your CSS code here */
+}
+
+/* Extra large phones (992px and up) */
+@media (min-width: 992px) {
+  /* Your CSS code here */
+}
+
+/* iPhone 5/SE (320px) */
+@media (max-width: 319.98px) {
+  /* Your CSS code here */
+}
+
+/* iPhone 6/7/8 (375px) */
+@media (min-width: 320px) and (max-width: 374.98px) {
+  /* Your CSS code here */
+}
+
+/* iPhone 6/7/8 Plus (414px) */
+@media (min-width: 375px) and (max-width: 413.98px) {
+  /* Your CSS code here */
+}
+
+/* iPhone X/XS (375px) */
+@media (min-width: 320px) and (max-width: 374.98px) {
+  /* Your CSS code here */
+}
+
+/* iPhone XS Max (414px) */
+@media (min-width: 375px) and (max-width: 413.98px) {
+  /* Your CSS code here */
+}
+
+/* Samsung Galaxy S21 (320px) */
+@media (max-width: 319.98px) {
+  /* Your CSS code here */
+}
+
+/* Samsung Galaxy S21+ (414px) */
+@media (min-width: 375px) and (max-width: 413.98px) {
+  /* Your CSS code here */
+}
+
 
 .msg {
     width: 100%;
